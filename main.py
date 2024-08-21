@@ -7,12 +7,14 @@ num_generations = 1000
 crossover_rate = 0.8
 mutation_rate = 0.01
 large_penalty = 1e6  
-num_primary_nodes = 40
-num_secondary_nodes = 7
-num_tertiary_nodes = 3
 epoch = '1'
 method = 'node'
 yun_price = 0
+
+# Initialization parameters: design based on specific data
+num_primary_nodes = 40
+num_secondary_nodes = 7
+num_tertiary_nodes = 3
 veg_price = []
 volum_price = 0
 veg_v = []
